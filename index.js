@@ -1,0 +1,1 @@
+require('./lib/bearded-octo-robot.js');
