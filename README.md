@@ -1,7 +1,7 @@
 [bearded-octo-robot](https://github.com/daxxog/bearded-octo-robot)
 ==================
 
-A crazy fast async JavaScript pre-processor with a crazier name.
+A crazy fast async JavaScript pre-processor with an even crazier name.
 
 Install
 -------
