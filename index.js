@@ -1,1 +1,1 @@
-require('./lib/bearded-octo-robot.js');
+module.exports = require('./lib/bearded-octo-robot.js');
