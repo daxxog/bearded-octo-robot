@@ -5,6 +5,12 @@ A crazy fast async JavaScript pre-processor with an even crazier name.
 
 Install
 -------
+stable
+```bash
+npm install bor
+```
+
+edge
 ```bash
 npm install https://github.com/daxxog/bearded-octo-robot/tarball/master
 ```
@@ -15,14 +21,14 @@ source file
 ```javascript
 /*!! include "includeme.js" !!*/
 /*!! include "includeme.js" !!*/
-/*!! define CONST "HELLO WORLD" !!*/
+/*!! define CONST "HELLO !!*/
 
-console.log(CONST);
+console.log(CONSThello);
 ```
 calling
 ```javascript
 var bor = require('bor');
-bor.robot('./octo.js', function(data) {
-    console.log('BEARD!!\n' + data);
+bor.define('hello', ' world!"').robot('./octo.js', function(data) {
+    console.log('//BEARD!!\n' + data);
 });
 ```
