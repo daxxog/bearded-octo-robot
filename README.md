@@ -23,7 +23,9 @@ source file
 /*!! include "includeme.js" !!*/
 /*!! define CONST "HELLO !!*/
 
+/*!! if CONST "HELLO !!*/
 console.log(CONSThello);
+/*!! endif CONST "HELLO !!*/
 ```
 calling
 ```javascript
@@ -32,3 +34,11 @@ bor.define('hello', ' world!"').robot('./octo.js', function(data) {
     console.log('//BEARD!!\n' + data);
 });
 ```
+
+Features
+* Global defines
+* Basic if/endif macro that comments out text
+* Auto comment style detection
+* Inline includes
+    * Caches includes for faster processing
+* Everything is processed in parallel using [async](https://github.com/caolan/async)
