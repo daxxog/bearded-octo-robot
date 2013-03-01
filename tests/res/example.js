@@ -1,4 +1,5 @@
 /*!! define CONST "HELLO WORLD" !!*/
+/*!! gdefine GCONST "HELLO WORLD" !!*/
 
 /*!! if CONST "HELLO WORLD" !!*/
 console.log('!');
