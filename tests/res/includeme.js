@@ -3,4 +3,4 @@
 console.log(hello);
 //console.log(CONST);
 console.log(GCONST);
-console.log('$'); /* HERE BE BUGS (maybe regex??) */
+console.log('$'); /* test for regex bugs */
