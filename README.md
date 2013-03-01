@@ -35,10 +35,19 @@ bor.define('hello', ' world!"').robot('./octo.js', function(data) {
 });
 ```
 
+Or in HTML
+```
+<script type="text/javascript">
+<!--!! include "inline.js" !!-->
+</script>
+<!--!! include "include.html" !!-->
+```
+
 Features
 * Global defines
 * Basic if/endif macro that comments out text
 * Auto comment style detection
 * Inline includes
     * Caches includes for faster processing
+* Not just for JavaScript, works in HTML, XML, css, C, etc. Submit a pull request to support more languages :)
 * Everything is processed in parallel using [async](https://github.com/caolan/async)
