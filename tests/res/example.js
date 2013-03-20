@@ -3,6 +3,8 @@
 /*!! refactor lib _ L !!*/
 
 var lib = {},
+    _;
+    
     _ = lib;
     
     lib.longVarName = 0;
@@ -10,10 +12,12 @@ var lib = {},
     
     
 lib.test = function() {
+    lib.longVarTwo = 3;
     lib.longVarThree = lib.longVarName + lib.longVarTwo;
+    console.log(lib.test, _.longVarName);
 };
 
-console.log(lib.test, _);
+lib.test();
 
 
 /*!! if CONST "HELLO WORLD" !!*/
