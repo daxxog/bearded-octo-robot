@@ -10,6 +10,6 @@ var pp = require('../lib/bearded-octo-robot.js');
 var ms = +new Date();
 
 pp.define('global', '"global test"').define('super', 'man').robot('./tests/res/example.html', function(data) {
-    console.log(data);
+    //console.log(data);
     console.log('<!-- Finished in '+ ((+ new Date()) - ms) + 'ms -->');
 })
