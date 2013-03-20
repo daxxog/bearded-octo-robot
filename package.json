@@ -3,7 +3,7 @@
     "description" : "A fast async JavaScript pre-processor.",
     "homepage"    : "https://github.com/daxxog/bearded-octo-robot",
     "main"        : "index.js",
-    "version"     : "0.0.6",
+    "version"     : "0.0.7",
     "engines": { "node" : ">=0.8.15" },
     "maintainers": [{
         "name"  : "David Volm",
@@ -18,7 +18,7 @@
         "async" : "*",
         "string" : "*",
         "acorn": "*",
-        "sf": "*",
+        "switch-factory": "*",
         "btoa": "*",
         "escodegen": "*"
     }
